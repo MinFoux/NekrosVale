@@ -13,12 +13,13 @@ collidemap = layer_tilemap_get_id("collisionTiles");
 	sprite_index = data.bulletType;
 	
 	//THIS IS THE SPEED (DONT LOSE IT)
-	bulletSpeed = data.bulletSpeed;
+	speed = data.bulletSpeed;
 
 	//Variables
 	maxLife = data.bulletLife;
 	rotateSpeed = data.bulletRotateSpeed;
 	life = 1;
+	damage = data.damage;
 
 //This does the thing. I forgot why its here but it fixes a lot of directional stuff.
 sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, sprite_get_height(sprite_index)/2);

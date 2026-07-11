@@ -101,7 +101,7 @@ global.weapon_db.versa = {
 	
 	//Where it appears on the player model
 	xOffset : 0,
-	yOffset : 30,
+	yOffset : 0,
 	displayOffset_y : 0,
 	
 	//Special gameplay doohickeys

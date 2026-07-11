@@ -10,3 +10,4 @@
 10 - Moved the F key sensor for switching weapons from the Weapon object to the UserInteractions object.
 11 - Made "Room1" less of an eyesore.
 12 - The weapon database is now also created by a script instead of the weapon data object itself.
+13 - Added walls around Room1, and put collisions in the player and bullets and enemy.
