@@ -1,0 +1,5 @@
+Created weapon perk database
+Removed wOffset in favor of yOffset and xOffset
+Tried 
+Made the gun code more robust
+Fixed some of the stuff with the gun positioning by giving the player the same offset as the weapon

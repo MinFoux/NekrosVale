@@ -1,0 +1,4 @@
+V.E.R.S.A. = versa
+No Gun = nogun
+Vortex Launcher 001 = vortex_launcher_001
+Pistol Green = pistolGreen
