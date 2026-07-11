@@ -1,8 +1,8 @@
-if(keyboard_key_press(ord("F"))){
-	loadout.active = (loadout.active + 1) % array_length(loadout.slots);
+//Keep updated on currentWeapon
+if(currentWeapon != array_get(global.loadout.slots, global.loadout.active)){
+	currentWeapon = array_get(global.loadout.slots, global.loadout.active);
+	setWeapon()
 }
-currentWeapon = array_get(loadout.slots, loadout.active);
-weapon_data = global.weapon_db[$ currentWeapon];
 
 //Rotation and Position
 function point(){
@@ -11,7 +11,6 @@ function point(){
 	aim_angle = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
 	image_angle = aim_angle;
 }
-
 
 //Flipping
 if (mouse_x < obj_player.x) {

@@ -1,0 +1,7 @@
+Oh dude you know what I just realised I had no idea how to do? COLLISIONS!
+How am i supposed to figure out if the player is colliding with something??? Do i make a hitbox?
+Should the hitbox be a square or oval? Will it be too janky if i use an oval? Will it be too janky if i use a square?
+Definitely not an oval...
+I will make it a square just the size of the player's two little feetsies.
+
+Okay time to read the manual about hitboxes I guess.

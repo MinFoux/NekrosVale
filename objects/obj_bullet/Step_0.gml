@@ -4,3 +4,4 @@ if(life>=maxLife){
 }
 
 image_angle += rotateSpeed;
+

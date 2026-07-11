@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"ts_floor",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"ts_floor",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Spr_Tile",
-    "path":"sprites/Spr_Tile/Spr_Tile.yy",
+    "name":"Spr_floorTiles",
+    "path":"sprites/Spr_floorTiles/Spr_floorTiles.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

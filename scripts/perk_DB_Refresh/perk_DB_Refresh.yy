@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"perk_DB_Refresh",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"perk_DB_Refresh",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

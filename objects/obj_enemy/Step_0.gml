@@ -13,11 +13,14 @@ switch(state){
 	break;
 	
 }
+
+//Check for pew pew
 if (place_meeting(x, y, obj_bullet))
 {
-    enemyHP = enemyHP - obj_weapon.damage;
+    enemyHP -= obj_weapon.damage;
 }
 
+//Check for die :((
 if (enemyHP <= 0){
 	instance_destroy();
 }

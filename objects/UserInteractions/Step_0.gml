@@ -1,6 +1,4 @@
 if(keyboard_check_pressed(ord("F"))){
-	weaponIndex++;
-	if(weaponIndex >= 3){
-		weaponIndex = 1;
-	}
+	global.loadout.active = (global.loadout.active + 1) % array_length(global.loadout.slots);
+	show_debug_message(global.loadout.active);
 }
