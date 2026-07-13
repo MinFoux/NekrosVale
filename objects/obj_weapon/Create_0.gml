@@ -8,7 +8,7 @@ global.loadout = {
     active: 1                          // index of currently held weapon
 }
 
-currentWeapon = global.loadout.active = (global.loadout.active + 1);
+currentWeapon = global.loadout.active;
 
 //Gun Init
 currentWeapon = "noGun";
@@ -31,11 +31,20 @@ x = obj_player.x +offset_x;
 y = obj_player.y +offset_y;
 
 function setWeapon(){
+	//Get data of selected weapon
 	weapon_data = variable_struct_get(global.weapon_db, currentWeapon);
+	
+	//Make it look like the weapon
 	sprite_index = weapon_data.sprite;
-	sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, sprite_get_height(sprite_index)/2);
+	
+	//Offset of gun (Where it goes on the player i think)
+	if(weapon_data.barrel_Y != "HALF"){
+		sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, weapon_data.barrel_Y);
+	}else{
+		sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, sprite_get_height(sprite_index)/2);
+	}
 
-	//Things that come from the new data
+	//Variables that come from the new data
 	offset_y = weapon_data.yOffset;
 	offset_x = weapon_data.xOffset;
 	displayOffset_y = weapon_data.displayOffset_y;

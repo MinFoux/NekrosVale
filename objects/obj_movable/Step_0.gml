@@ -24,6 +24,17 @@ if (_hspd != 0 || _vspd != 0)
 	if (!place_meeting(x, y+_yadd, collidemap)){
     y += _yadd;
 	}
-    
+	
+	//Sprite changing based on direction
+	if(sign(_yadd) == -1){
+		sprite_index = spr_chunk_backward;
+		spriteFace = "away"
+	}
+	
+	if(sign(_yadd) == 1){
+		sprite_index = spr_chunk_forward;
+		spriteFace = "towards"
+	}
+	sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, sprite_get_height(sprite_index)/2);    
 }
 

@@ -13,4 +13,9 @@ function perk_DB_Refresh(){
 		name : "Family Reunion",
 		description : "Enhanced effects when paired with a certain elderly firearm."
 	};
+	
+	global.perk_db.versa_tility = {
+		name : "VERSA-tility",
+		description : "Occasionally shoots socks, or a vortex."
+	};
 }

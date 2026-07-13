@@ -8,7 +8,7 @@ function weaponData_DB_Refresh(){
     damage : 0,
     cooldown : 9999,
 	fire_mode : "semi",
-	bulletType : Spr_bullet,
+	bulletType : spr_bullet,
 	bulletLife : 0,
 	bulletSpeed : 0,
 	bulletRotateSpeed : 0,
@@ -61,11 +61,11 @@ global.weapon_db.pistolGreen = {
     damage : 999,
     cooldown : 1,
 	fire_mode : "auto",
-	bulletType : Spr_bullet,
-	bulletLife : 0,
-	bulletSpeed : 5,
+	bulletType : spr_bullet,
+	bulletLife : 50,
+	bulletSpeed : 0,
 	bulletRotateSpeed : 0,
-	barrelLength : 21,
+	barrelLength : 200,
 	barrel_Y : 2,
 
     rarity : "Kinda rare I dunno",
@@ -86,13 +86,13 @@ global.weapon_db.versa = {
 	
     damage : 5,
     cooldown : 10,
-	fire_mode : "semi",
-	bulletType : Spr_bullet,
+	fire_mode : "auto",
+	bulletType : spr_bullet,
 	bulletLife : 100,
 	bulletSpeed : 15,
 	bulletRotateSpeed : 0,
-	barrelLength : 50,
-	barrel_Y : 12,
+	barrelLength : 25,
+	barrel_Y : 10,
 	
 	//What the player sees
     rarity : "Rare",
@@ -105,7 +105,7 @@ global.weapon_db.versa = {
 	displayOffset_y : 0,
 	
 	//Special gameplay doohickeys
-	perks : []
+	perks : [global.perk_db.versa_tility]
 };
 
 }

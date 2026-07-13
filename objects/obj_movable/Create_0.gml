@@ -1,3 +1,7 @@
+
+sprite_index = spr_chunk_forward;
+spriteFace = "towards"
+
 //Offset. I made this, but I forgot why its necessary.
 sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, sprite_get_height(sprite_index)/2);
 
