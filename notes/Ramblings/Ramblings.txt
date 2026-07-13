@@ -5,3 +5,7 @@ Definitely not an oval...
 I will make it a square just the size of the player's two little feetsies.
 
 Okay time to read the manual about hitboxes I guess.
+
+DONE 
+
+Now i ned to make scipts or something to load in a preset for all the stats of a bullet. There can be an override of this but things are gtting a little confusing in the bullet object.
