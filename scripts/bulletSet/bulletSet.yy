@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"bulletSet",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"bulletSet",
+  "parent":{
+    "name":"bulletSet",
+    "path":"folders/Scripts/bulletSet.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

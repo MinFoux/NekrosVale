@@ -24,6 +24,7 @@ function weaponData_DB_Refresh(){
 	xOffset : 30,
 	yOffset : -50,
 	displayOffset_y : 0,
+	displayOffset_x : 0,
 	
 	//Special gameplay doohickeys
 	perks : [global.perk_db.Touch_of_a_higher_being]
@@ -50,6 +51,7 @@ global.weapon_db.vortex_launcher_001 = {
 	xOffset: 0,
 	yOffset : 0,
 	displayOffset_y : 0,
+	displayOffset_x : 0,
 	
 	perks: []
 };
@@ -75,6 +77,7 @@ global.weapon_db.pistolGreen = {
 	xOffset : 21,
 	yOffset : 0,
 	displayOffset_y : 0,
+	displayOffset_x : 0,
 	
 	perks : [global.perk_db.Touch_of_a_higher_being]
 };
@@ -103,9 +106,36 @@ global.weapon_db.versa = {
 	xOffset : 0,
 	yOffset : 0,
 	displayOffset_y : 0,
+	displayOffset_x : 0,
 	
 	//Special gameplay doohickeys
 	perks : [global.perk_db.versa_tility]
 };
+
+global.weapon_db.lassswish = {
+	    name : "Lass's Wish",
+    sprite : spr_lassswish,
+	
+    damage : 40,
+    cooldown : 1,
+	fire_mode : "auto",
+	bulletType : spr_darkBullet,
+	bulletLife : 50,
+	bulletSpeed : 4,
+	bulletRotateSpeed : 0,
+	barrelLength : 25,
+	barrel_Y : 0,
+
+    rarity : "Legendary",
+    manufacturer : "Mass Ingenuity",
+    description : "Of course I won’t die, Odin. Pandora would miss me too much.",
+	
+	xOffset : 30,
+	yOffset : 0,
+	displayOffset_y : 0,
+	displayOffset_x : 0,
+	
+	perks : []
+}
 
 }

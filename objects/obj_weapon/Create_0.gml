@@ -4,7 +4,7 @@ y = 0;
 
 // Player Create
 global.loadout = {
-    slots: ["pistolGreen", "vortex_launcher_001","versa"],  // variable length, player can add/remove
+    slots: ["lassswish", "vortex_launcher_001","versa"],  // variable length, player can add/remove
     active: 1                          // index of currently held weapon
 }
 
