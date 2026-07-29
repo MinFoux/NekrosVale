@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Suspiciously MASSE flavored folder","folderPath":"folders/Suspiciously MASSE flavored folder.yy","name":"Suspiciously MASSE flavored folder","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -37,6 +38,7 @@
     {"id":{"name":"Changelog","path":"notes/Changelog/Changelog.yy",},},
     {"id":{"name":"GunIDs","path":"notes/GunIDs/GunIDs.yy",},},
     {"id":{"name":"Ramblings","path":"notes/Ramblings/Ramblings.yy",},},
+    {"id":{"name":"Schizo Notes","path":"notes/Schizo Notes/Schizo Notes.yy",},},
     {"id":{"name":"GameController","path":"objects/GameController/GameController.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -71,6 +73,7 @@
     {"id":{"name":"spr_vortexNoAnim","path":"sprites/spr_vortexNoAnim/spr_vortexNoAnim.yy",},},
     {"id":{"name":"ts_collision","path":"tilesets/ts_collision/ts_collision.yy",},},
     {"id":{"name":"ts_floor","path":"tilesets/ts_floor/ts_floor.yy",},},
+    {"id":{"name":"Timeline","path":"timelines/Timeline/Timeline.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

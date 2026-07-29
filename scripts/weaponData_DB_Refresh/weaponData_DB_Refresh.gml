@@ -124,7 +124,7 @@ global.weapon_db.lassswish = {
 	bulletSpeed : 4,
 	bulletRotateSpeed : 0,
 	barrelLength : 25,
-	barrel_Y : 0,
+	barrel_Y : 20,
 
     rarity : "Legendary",
     manufacturer : "Mass Ingenuity",

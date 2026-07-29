@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
+    {"name":"Suspiciously MASSE flavored folder","order":9,"path":"folders/Suspiciously MASSE flavored folder.yy",},
     {"name":"Notes","order":8,"path":"folders/Notes.yy",},
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
@@ -17,6 +18,7 @@
   "ResourceOrderSettings":[
     {"name":"GunIDs","order":1,"path":"notes/GunIDs/GunIDs.yy",},
     {"name":"Ramblings","order":2,"path":"notes/Ramblings/Ramblings.yy",},
+    {"name":"Schizo Notes","order":1,"path":"notes/Schizo Notes/Schizo Notes.yy",},
     {"name":"GameController","order":8,"path":"objects/GameController/GameController.yy",},
     {"name":"obj_bullet","order":4,"path":"objects/obj_bullet/obj_bullet.yy",},
     {"name":"obj_enemy","order":5,"path":"objects/obj_enemy/obj_enemy.yy",},
