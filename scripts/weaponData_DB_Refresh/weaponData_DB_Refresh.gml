@@ -49,9 +49,9 @@ global.weapon_db.vortex_launcher_001 = {
     description : "Can't go wrong with the basics.",
 	
 	xOffset: 0,
-	yOffset : 0,
+	yOffset : 8,
 	displayOffset_y : 0,
-	displayOffset_x : 0,
+	displayOffset_x : "HALF",
 	
 	perks: []
 };
@@ -75,8 +75,8 @@ global.weapon_db.pistolGreen = {
     description : "Completely balanced for optimal gameplay enjoyment.",
 	
 	xOffset : 21,
-	yOffset : 0,
-	displayOffset_y : 0,
+	yOffset : 2,
+	displayOffset_y : 2,
 	displayOffset_x : 0,
 	
 	perks : [global.perk_db.Touch_of_a_higher_being]
@@ -104,7 +104,7 @@ global.weapon_db.versa = {
 	
 	//Where it appears on the player model
 	xOffset : 0,
-	yOffset : 0,
+	yOffset : 10,
 	displayOffset_y : 0,
 	displayOffset_x : 0,
 	
@@ -130,9 +130,9 @@ global.weapon_db.lassswish = {
     manufacturer : "Mass Ingenuity",
     description : "Of course I won’t die, Odin. Pandora would miss me too much.",
 	
-	xOffset : 30,
-	yOffset : 0,
-	displayOffset_y : 0,
+	xOffset : -5,
+	yOffset : 10,
+	displayOffset_y : -20,
 	displayOffset_x : 0,
 	
 	perks : []

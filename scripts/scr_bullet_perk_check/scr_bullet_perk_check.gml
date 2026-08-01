@@ -34,7 +34,6 @@ function scr_bullet_perk_check(){
 					
 				case 4:
 					
-					show_debug_message("IAAMAM HEREEE")
 					bulletSet("vortex")
 					sprite_index = bulletType;
 					speed = bulletSpeed;

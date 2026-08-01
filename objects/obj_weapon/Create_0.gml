@@ -37,17 +37,33 @@ function setWeapon(){
 	//Make it look like the weapon
 	sprite_index = weapon_data.sprite;
 	
-	//Offset of gun (Where it goes on the player i think)
-	if(weapon_data.barrel_Y != "HALF"){
-		sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, weapon_data.barrel_Y);
-	}else{
-		sprite_set_offset(sprite_index, sprite_get_width(sprite_index)/2, sprite_get_height(sprite_index)/2);
-	}
-
 	//Variables that come from the new data
 	offset_y = weapon_data.yOffset;
 	offset_x = weapon_data.xOffset;
 	displayOffset_y = weapon_data.displayOffset_y;
 	bulletDelay = weapon_data.cooldown;
 	damage = weapon_data.damage;
+	
+	//Offset of gun (Where it goes on the player i think)
+	sprite_set_offset(sprite_index, setOffset("x",offset_x), setOffset("y",offset_y));
+	
+}
+
+function setOffset(xy, input){
+	if(input == "HALF"){
+		
+		if(xy = "y"){
+			return(sprite_get_height(sprite_index)/2)
+		}else{
+			return(sprite_get_width(sprite_index)/2)
+		}
+		
+	}else{
+		
+		if(xy = "y"){
+			return(sprite_get_height(sprite_index) - offset_y)
+		}else{
+			return(sprite_get_height(sprite_index) - offset_x)
+		}
+	}
 }

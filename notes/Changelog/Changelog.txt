@@ -11,3 +11,4 @@
 11 - Made "Room1" less of an eyesore.
 12 - The weapon database is now also created by a script instead of the weapon data object itself.
 13 - Added walls around Room1, and put collisions in the player and bullets and enemy.
+14 - Changed the way the offsets are applied. Now it is split up between sprite offsets and actual location offsets. (I reworked it so Lass's Wish would go on the player properly, and now Lass's Wish is the ONLY gun that works properly.)
