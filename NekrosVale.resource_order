@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
-    {"name":"Suspiciously MASSE flavored folder","order":9,"path":"folders/Suspiciously MASSE flavored folder.yy",},
     {"name":"Notes","order":8,"path":"folders/Notes.yy",},
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":2,"path":"folders/Rooms.yy",},
@@ -10,9 +9,11 @@
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
     {"name":"Bullets","order":7,"path":"folders/Sprites/Bullets.yy",},
     {"name":"socks","order":4,"path":"folders/Sprites/Bullets/socks.yy",},
+    {"name":"Enemies","order":11,"path":"folders/Sprites/Enemies.yy",},
     {"name":"Guns","order":8,"path":"folders/Sprites/Guns.yy",},
     {"name":"mini_chunk","order":10,"path":"folders/Sprites/mini_chunk.yy",},
     {"name":"TileSets","order":9,"path":"folders/Sprites/TileSets.yy",},
+    {"name":"Suspiciously MASSE flavored folder","order":9,"path":"folders/Suspiciously MASSE flavored folder.yy",},
     {"name":"Tiles","order":1,"path":"folders/Tiles.yy",},
   ],
   "ResourceOrderSettings":[
@@ -27,6 +28,7 @@
     {"name":"obj_weapon_Data","order":7,"path":"objects/obj_weapon_Data/obj_weapon_Data.yy",},
     {"name":"obj_weapon","order":3,"path":"objects/obj_weapon/obj_weapon.yy",},
     {"name":"UserInteractions","order":9,"path":"objects/UserInteractions/UserInteractions.yy",},
+    {"name":"debug","order":4,"path":"scripts/debug/debug.yy",},
     {"name":"scr_bullet_perk_check","order":2,"path":"scripts/scr_bullet_perk_check/scr_bullet_perk_check.yy",},
     {"name":"weaponData_DB_Refresh","order":1,"path":"scripts/weaponData_DB_Refresh/weaponData_DB_Refresh.yy",},
     {"name":"spr_blueSock","order":2,"path":"sprites/spr_blueSock/spr_blueSock.yy",},
@@ -38,7 +40,6 @@
     {"name":"spr_masseBullet","order":3,"path":"sprites/spr_masseBullet/spr_masseBullet.yy",},
     {"name":"spr_NoGun","order":2,"path":"sprites/spr_NoGun/spr_NoGun.yy",},
     {"name":"Spr_Player","order":1,"path":"sprites/Spr_Player/Spr_Player.yy",},
-    {"name":"spr_testEnemy","order":4,"path":"sprites/spr_testEnemy/spr_testEnemy.yy",},
     {"name":"spr_versa","order":3,"path":"sprites/spr_versa/spr_versa.yy",},
     {"name":"spr_VortexLauncher001","order":1,"path":"sprites/spr_VortexLauncher001/spr_VortexLauncher001.yy",},
     {"name":"spr_vortexNoAnim","order":1,"path":"sprites/spr_vortexNoAnim/spr_vortexNoAnim.yy",},

@@ -23,7 +23,7 @@ if (mouse_x < obj_player.x) {
 	point()
 }
 
-//Check for shot
+//Check for shot (?)
 fire_timer += 1;
 firing = false;
 if (weapon_data.fire_mode == "auto")

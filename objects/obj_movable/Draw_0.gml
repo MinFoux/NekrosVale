@@ -1,8 +1,8 @@
 image_xscale = 1.2;
 image_yscale = 1.2;
 
-draw_self()
-
+draw_self();
+debug();
 
 if (spriteFace == "away") {
     obj_weapon.depth = depth + 1;

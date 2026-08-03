@@ -1,33 +1,36 @@
 switch(state){
-	case "wander":
-	if (speed>=3){speed = 0}else{
-	speed = speed + irandom_range(1,2);	
-	}
+	
+case "wander":
+	
+	if (speedh>=3){speedh = 0}else{
+	speedh = speedh + random_range(1,2);	
+	}//This comment is important to the code because it makes it look more professional.
 	wanderTimer++
-	if (wanderTimer == wanderTimerMax) {
+	if (wanderTimer == wanderTimerMax){
 	wanderTimer = 0 ;
 	randomDir = irandom_range(0,45);
 	direction = direction + randomDir;
 	}
-	speed = speed * irandom_range(0.5, 1.5)
+	speedh = speedh * random_range(0.5, 1.5)
 	
 	
-	//COLLISION A
-	var move_x = lengthdir_x(speed, direction);
-    var move_y = lengthdir_y(speed, direction);
+	//COLLISION A script (Copy pasted from rando's post on GML forums)
+	var move_x = lengthdir_x(speedh, direction);
+    var move_y = lengthdir_y(speedh, direction);
     
-    if (!place_meeting(x + move_x, y, collidemap)) {
+    if (!tilemap_get_at_pixel(collidemap, x + move_x, y)){
         x += move_x;
     }else{
-        direction += irandom_range(90, 180); // Bouncy enemies :)
-        speed = 0;
-    }
+        direction += random_range(90, 180); // Bouncy enemies :)
+        speedh = 0;
+	}
+
     
-    if (!place_meeting(x, y + move_y, collidemap)) {
+    if (!tilemap_get_at_pixel(collidemap, x, y + move_y)) {
         y += move_y;
     } else {
-        direction += irandom_range(90, 180);
-        speed = 0;
+        direction += random_range(90, 180);
+        speedh = 0;
     }
 	
 	break;
@@ -38,5 +41,5 @@ switch(state){
 
 //Check for die :((
 if (hp <= 0){
-	instance_destroy();
+    instance_destroy();
 }
