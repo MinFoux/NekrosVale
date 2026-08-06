@@ -1,4 +1,5 @@
 function debug(){
+	sprite_index = sprite_index;
 	
 	if(global.debug){
 	// Draw the object's sprite first

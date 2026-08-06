@@ -1,6 +1,8 @@
 //Initialize Data
 global.perk_db = {};
 global.debug = false;
+global.UI = false;
+global.fullscreen = false;
 
 //Initialize the perks.
 perk_DB_Refresh()

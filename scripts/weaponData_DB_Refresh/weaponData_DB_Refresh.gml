@@ -42,7 +42,7 @@ global.weapon_db.vortex_launcher_001 = {
 	bulletSpeed : 2,
 	bulletRotateSpeed : 1,
 	barrelLength : 45,
-	barrel_Y : "HALF",
+	barrel_Y : 20,
 
     rarity : "Common",
     manufacturer : "Masse Electronics",
@@ -94,8 +94,8 @@ global.weapon_db.versa = {
 	bulletLife : 100,
 	bulletSpeed : 15,
 	bulletRotateSpeed : 0,
-	barrelLength : 25,
-	barrel_Y : 10,
+	barrelLength : 30,
+	barrel_Y : -10,
 	
 	//What the player sees
     rarity : "Rare",
@@ -104,7 +104,7 @@ global.weapon_db.versa = {
 	
 	//Where it appears on the player model
 	xOffset : 0,
-	yOffset : 10,
+	yOffset : 0,
 	displayOffset_y : 0,
 	displayOffset_x : 0,
 	
@@ -121,18 +121,18 @@ global.weapon_db.lassswish = {
 	fire_mode : "auto",
 	bulletType : spr_darkBullet,
 	bulletLife : 50,
-	bulletSpeed : 4,
+	bulletSpeed : 0,
 	bulletRotateSpeed : 0,
-	barrelLength : 25,
-	barrel_Y : 20,
+	barrelLength : 105,
+	barrel_Y : -15,
 
     rarity : "Legendary",
     manufacturer : "Mass Ingenuity",
     description : "Of course I won’t die, Odin. Pandora would miss me too much.",
 	
-	xOffset : -5,
-	yOffset : 10,
-	displayOffset_y : -20,
+	xOffset : 0,
+	yOffset : 20,
+	displayOffset_y : 0,
 	displayOffset_x : 0,
 	
 	perks : []

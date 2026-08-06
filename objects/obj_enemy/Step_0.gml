@@ -1,3 +1,5 @@
+if(global.GameActive){
+
 switch(state){
 	
 case "wander":
@@ -42,4 +44,6 @@ case "wander":
 //Check for die :((
 if (hp <= 0){
     instance_destroy();
+}
+
 }

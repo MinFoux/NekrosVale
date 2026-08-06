@@ -1,3 +1,6 @@
+if(global.GameActive){
+	
+	
 life += 1;
 if(life>=maxLife){
 	instance_destroy();
@@ -15,6 +18,8 @@ if (collision_line(x, y, xx, yy, collidemap, false, true))
     exit;
 }
 
+collision_line(0,0,0,0,0,0,0)
+
 // Check enemies
 var target = collision_line(x, y, xx, yy, obj_enemy, false, true);
 
@@ -28,3 +33,6 @@ if (target != noone)
 // Continue flying
 x = xx;
 y = yy;
+
+
+}

@@ -12,3 +12,10 @@
 12 - The weapon database is now also created by a script instead of the weapon data object itself.
 13 - Added walls around Room1, and put collisions in the player and bullets and enemy.
 14 - Changed the way the offsets are applied. Now it is split up between sprite offsets and actual location offsets. (I reworked it so Lass's Wish would go on the player properly, and now Lass's Wish is the ONLY gun that works properly.)
+15 - All offsets have been configured. Now all i need to worry about now is that the bullets that shoot out of Lass's Wish are just completely in the wrong spot.
+16 - Fixed collision with the little silly little guys.
+17 - Hitboxes for most objects now show when f3 is pressed. Why F3? Because I have muscle memory from minecraft.
+18 - Added game pause functionality
+19 - Pressing F4, F11, or alt + enter now enters fullscreen.
+18 - Moved several interactions from the gamecontroller object to the user interactions object.
+19 - Created logo and changed window name.

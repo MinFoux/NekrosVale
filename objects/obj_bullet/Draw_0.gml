@@ -3,4 +3,5 @@ if(sprite_index == spr_blueSock || sprite_index == spr_greenSock || sprite_index
 	image_yscale = 1.5;
 }
 
-draw_self()
+draw_self();
+debug();

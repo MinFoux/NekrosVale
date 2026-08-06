@@ -4,7 +4,7 @@ function scr_bullet_perk_check(){
 		
 		if(random(11)>=9){			
 			
-			var rand = round(random(5));
+			var rand = round(random(4));
 			
 			switch (rand){
 			

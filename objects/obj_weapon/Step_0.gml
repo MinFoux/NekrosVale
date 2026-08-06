@@ -1,4 +1,6 @@
 //Keep updated on currentWeapon
+if(global.GameActive){
+
 if(currentWeapon != array_get(global.loadout.slots, global.loadout.active)){
 	currentWeapon = array_get(global.loadout.slots, global.loadout.active);
 	setWeapon()
@@ -45,4 +47,6 @@ if (fire_timer >= weapon_data.cooldown && firing)
 if(fire_timer>bulletDelay&&firing){
 	fire_timer = 0;
 	instance_create_depth(x, y, -100, obj_bullet);
+}
+
 }

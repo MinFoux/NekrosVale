@@ -43,9 +43,11 @@ function setWeapon(){
 	displayOffset_y = weapon_data.displayOffset_y;
 	bulletDelay = weapon_data.cooldown;
 	damage = weapon_data.damage;
+	disOffsety = weapon_data.displayOffset_y
+	disOffsetx = weapon_data.displayOffset_x
 	
 	//Offset of gun (Where it goes on the player i think)
-	sprite_set_offset(sprite_index, setOffset("x",offset_x), setOffset("y",offset_y));
+	sprite_set_offset(sprite_index, setOffset("x",disOffsetx), setOffset("y",disOffsety));
 	
 }
 
@@ -61,9 +63,9 @@ function setOffset(xy, input){
 	}else{
 		
 		if(xy = "y"){
-			return(sprite_get_height(sprite_index) - offset_y)
+			return(sprite_get_height(sprite_index) - input)
 		}else{
-			return(sprite_get_height(sprite_index) - offset_x)
+			return(sprite_get_height(sprite_index) - input)
 		}
 	}
 }
